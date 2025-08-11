@@ -1,0 +1,10 @@
+^C:\USERS\MARIA\INFOTECS\BUILD\CMAKEFILES\BAB94F7D89DBDA849D37D7B3FD1B82C3\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Maria/infotecs -BC:/Users/Maria/infotecs/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Maria/infotecs/build/sqlite3lib.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
