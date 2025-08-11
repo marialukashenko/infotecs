@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -Wl,--dependency-file=CMakeFiles/sqlite3.dir/link.d -shared -Wl,-soname,libsqlite3.so -o bin/libsqlite3.so "CMakeFiles/sqlite3.dir/sqlite-amalgamation-3260000/sqlite3.c.o"  -lpthread -ldl -lm

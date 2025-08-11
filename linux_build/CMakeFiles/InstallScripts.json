@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/marial/infotecs/linux_build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
